@@ -1,0 +1,28 @@
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* input {
+    display: inline-block;
+} */
+
+/* label {
+    display: block;
+    margin-bottom: 0.5em;
+} */
+
+.q1 {
+    background-color: #F8F9FA;
+    border: 1px solid #dee2e6;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
