@@ -1,12 +1,21 @@
 // Answer
-const answerQ1 = "e3a81988aac6fa7835861e46562edf0b3eb0ad193ef6678859cc01058139d1ee"
+const answer = ["hashes","e3a81988aac6fa7835861e46562edf0b3eb0ad193ef6678859cc01058139d1ee","c41d80adc49112bc74a26f12064052d2d1f032c81cf1142a0eb934bdbea87778"];
 
 // Q1 Button Click Event
 document.getElementById('submit-q1').addEventListener('click', function() {
 
     const inputValueQ1 = document.getElementById('flag-q1').value;
 
-    verifyAnswer(inputValueQ1,answerQ1);
+    verifyAnswer(inputValueQ1,answer[1]);
+
+})
+
+// Q2 Button Click Event
+document.getElementById('submit-q2').addEventListener('click', function() {
+
+    const inputValueQ1 = document.getElementById('flag-q2').value;
+
+    verifyAnswer(inputValueQ1,answer[2]);
 
 })
 
